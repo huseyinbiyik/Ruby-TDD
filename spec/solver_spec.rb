@@ -27,4 +27,27 @@ describe 'solver class' do
       expect(reversed_string).to eq(expected_str)
     end
   end
+
+  context 'test fizzbuzz n integer N, and returns a string' do
+    it 'returns "fizz" if the parameter given divisible by 3' do
+      answer = solve.fizzbuzz(9)
+      expected_answer = 'fizz'
+      expect(answer).to eq(expected_answer)
+    end
+    it 'returns "buzz" if the parameter given is divisible by 5' do
+      answer = solve.fizzbuzz(10)
+      expected_answer = 'buzz'
+      expect(answer).to eq(expected_answer)
+    end
+    it 'returns "fizzbuzz" if the parameter given is divisible by 3 and 5' do
+      answer = solve.fizzbuzz(15)
+      expected_answer = 'fizzbuzz'
+      expect(answer).to eq(expected_answer)
+    end
+    it 'returns the given number if the parameter given is not divisible by 3 or 5' do
+      answer = solve.fizzbuzz(7)
+      expected_answer = '7'
+      expect(answer).to eq(expected_answer)
+    end
+  end
 end
