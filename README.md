@@ -1,9 +1,6 @@
-## School Library
+## Ruby Test Driven Development Exercise
 
-> It is an library app that will allow you to:
-- Add new students or teachers.
-- Add new books.
-- Save records of who borrowed a given book and when.
+> A small application for practising Test Driven Development
 
 ## Built With
 
@@ -13,12 +10,12 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1- Copy this link `https://github.com/huseyinbiyik/school-library.git` <br>
+1- Copy this link `https://github.com/huseyinbiyik/Ruby-TDD` <br>
 2- Get the directory that you want to clone the repository. <br>
 3- Open the command prompt in this directory. <br>
-4- Write `git clone https://github.com/huseyinbiyik/school-library.git` <br>
-5- Go to the repository folder in your command prompt `cd school-library`. <br>
-6- Go to command line and run `./main.rb`.
+4- Write `git clone https://github.com/huseyinbiyik/Ruby-TDD.git` <br>
+5- Go to the repository folder in your command prompt `cd Ruby-TDD`. <br>
+6- Go to command line and run `rspec spec`.
 
 To setup linters on your local environment, please follow these steps.
 
@@ -36,6 +33,12 @@ IDE(VSCode etc.), WSL(for Windows OS), for linters RuboCop
 - GitHub: [@huseyinbiyik](https://github.com/huseyinbiyik)
 - Twitter: [@huseyin__biyik](https://twitter.com/huseyin__biyik)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/huseyin-b%C4%B1y%C4%B1k/)
+
+👤 **Artur Gouveia**
+
+- [GitHub](https://github.com/Arturgouveia1970)
+- [Twitter](https://twitter.com/@arturgouveia10)
+- [LinkedIn](https://www.linkedin.com/in/artur-gouveia-323868197/)
 
 
 ## 🤝 Contributing
