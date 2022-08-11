@@ -1,11 +1,15 @@
 class Solver
-  def factorial(n)
-    if n == 0
+  def factorial(num)
+    if num.zero?
       1
-    elsif n < 0
+    elsif num.negative?
       raise 'Negative number entered'
     else
-      n * factorial(n - 1)
+      num * factorial(num - 1)
     end
+  end
+
+  def reverse(str)
+    str.reverse
   end
 end
